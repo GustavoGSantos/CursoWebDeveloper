@@ -1,0 +1,155 @@
+/*Selector {
+    property: value;
+}*/
+
+.bg{
+    background: url(ArvoreO.png) no-repeat;
+    size: cover
+}
+div{
+    padding-top: 1.2cm
+}
+
+.flexCenterWrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.obrigatorio{
+    font-weight: bold
+}
+
+
+.alignLeft{
+    text-align: left
+}
+
+.alignCenter{
+    text-align: center
+}
+
+.alignRight{
+    text-align: right
+}
+
+form{
+    border: 1px solid;
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    padding-bottom: 0.5cm;
+}
+
+input{
+    margin: 1em
+}
+
+.marginInput{
+    padding: 0.12cm;
+    width: 6cm
+}
+
+.marginLabel{
+    margin: 0.25cm
+}
+
+.marginLeft{
+    margin-left: 1.2cm
+}
+
+.required{
+    color: red;
+    font-weight: bold
+}
+
+.marginBot{
+    margin-bottom: 1.2cm
+}
+
+.modal-wrapper {
+    background: white;
+    border: 1px solid #d0cccc;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+    margin: 100px auto 0;
+    transition: all .8s;
+    width: 60%;
+}
+
+.modal-header {
+    background: #263238;
+    height: 40px;
+    line-height: 40px;
+    padding: 5px 20px;
+    text-align: right;
+}
+
+.modal-header h3 {
+    color: white;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-body {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.modal-footer {
+    background: #263238;
+    height: 35px;
+    padding: 15px;
+}
+
+.close-modal-btn {
+    color: white;
+    cursor: pointer;
+    float: right;
+    font-size: 30px;
+    margin: 0;
+}
+
+.close-modal-btn:hover {
+    color: black;
+}
+
+.btn-cancel, .btn-continue {
+    background: coral;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    padding: 10px;
+}
+
+.btn-cancel {
+    background-color: #b71c1c;
+    float: left;
+}
+
+.btn-continue {
+    background-color: #1b5e20;
+    float: right;
+}
+
+.back-drop {
+    background-color: rgba(48, 49, 48, 0.42);
+    height: 100%;
+    position: fixed;
+    transition: all 1.3s;
+    width: 100%;
+}
+
+.open-modal-btn {
+    margin: 15px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#register.html:target{
+    outline: 3px solid var(--color-purple-30);
+    color: var(--color-purple-30);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
