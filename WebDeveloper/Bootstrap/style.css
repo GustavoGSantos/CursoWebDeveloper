@@ -11,7 +11,7 @@ body {
 hr {
     max-width: 65px;
     border-width: 3px;
-    border-color: #F05F44;
+    border-color: rgb(171, 68, 240);
 }
 
 header.startup {
@@ -32,6 +32,7 @@ header.startup hr {
     border-radius: 300px;
     font-family: 'Montserrat', sans-serif;
     background-color: rgba(157, 58, 250, 0.877);
+    border: 1px transparent;
 }
 
 .btn-xl {
@@ -52,4 +53,8 @@ header.startup hr {
 
 .text {
     color: black;
+}
+
+.grad {
+    background-image: linear-gradient(to right, white, rgb(66, 66, 255));
 }
