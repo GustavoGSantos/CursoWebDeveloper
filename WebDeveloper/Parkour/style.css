@@ -11,8 +11,6 @@ body {
 h1 {
     font-family: fantasy;
     font-size: 3em;
-    border-bottom: 2px solid blue;
-    border-right: 2px solid blue;
     width: 400px;
     text-align: center;
     box-shadow: 4px 4px 5px #888888;
@@ -26,6 +24,6 @@ img {
     transition: all 1s;
 }
 
-img:hover {
+h1:hover, img:hover {
     transform: scale(1.1);
 }
