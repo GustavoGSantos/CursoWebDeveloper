@@ -58,3 +58,7 @@ header.startup hr {
 .grad {
     background-image: linear-gradient(to right, white, blue);
 }
+
+h1:hover, .btn:hover {
+    transform: scale(1.1);
+}
