@@ -13,21 +13,36 @@
     <div class="flexCenterWrap mt-12">
         <div class="flexCenterWrap mt-7">
             <form method="POST" class="alignCenter">
-                <h1>Kanoon</h1>
-                <label> Usuário </label>
-                <br>
-                <input type="text" required name="user">
-                <br>
-                <label> Senha </label>
-                <br>
-                <input type="password" required name="senha">
-                <br>
-                <input type="submit" value="Login" name="login">
-                <br>
-                <a href="register.html" id="register">Cadastre-se aqui!</a>
+                <div>
+                    <h1 id="nome">Kanoon</h1>
+                </div>
+                <div>
+                    <label class="marginLabel"> Usuário </label>
+                    <input type="text" id="user" name="user">
+                    <div>
+                        <span id="user-error"></span>
+                    </div>
+                </div>
+                <div>
+                    <label class="marginLabel"> Senha </label>
+                    <input type="password" id="password" name="senha">
+                    <div>
+                        <span id="password-error"></span>
+                    </div>
+                </div>
+                <div>
+                    <input type="submit" value="Login" id="login" name="login">
+                    <a href="register.html" id="register">Cadastre-se aqui!</a>
+                </div>
             </form>
         </div>
     </div>
+
+    <footer>
+        <script src="jquery.js"></script>
+        <script src="script_jquery.js"></script>
+    </footer>
+
 
 </body>
 
